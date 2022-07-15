@@ -1,0 +1,28 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+#test{
+    width: 1vw;
+    height: 1vw;
+    background-color: red;
+}
+.grid{
+    display: grid;
+}
+.flexbox{
+    display: flex;
+
+    align-items: center;
+}
+#maincont{
+    resize: both;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+    background-color: black;
+}
+#Grid{
+    position: relative;
+}
